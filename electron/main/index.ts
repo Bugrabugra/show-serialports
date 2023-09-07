@@ -62,6 +62,7 @@ async function createWindow() {
   setTimeout(() => {
     win.webContents.send("hello-from-backend", "hello from backend!");
   }, 5000);
+
   // ----------------- SERIAL PORT API -----------
 }
 
